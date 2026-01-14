@@ -2,5 +2,12 @@
 
 public class Lift
 {
-    
+    public bool DoorsClosed 
+    { 
+        get
+        {
+            return true;
+        }
+        
+    }
 }

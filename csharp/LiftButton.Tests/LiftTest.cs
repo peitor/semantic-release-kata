@@ -1,4 +1,5 @@
 ﻿namespace LiftButton.Tests;
+using LiftButton;
 
 public class LiftTests
 {
@@ -12,6 +13,8 @@ public class LiftTests
     [Test]
     public void DoorsShouldBeClosedWhenLiftIsCreated()
     {
-        Assert.Pass();
+        var lift = new Lift();
+        
+        Assert.That(lift.DoorsClosed, Is.True);
     }
 }
