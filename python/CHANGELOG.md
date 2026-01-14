@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/peitor/semantic-release-kata/compare/v1.0.0...v1.1.0) (2026-01-14)
+
+
+### Features
+
+* switch lights ON when button is pressed ([24ca0b3](https://github.com/peitor/semantic-release-kata/commit/24ca0b3c24fd680f67ab0d2fe9a6e3ef2e85b2fe))
+
 # 1.0.0 (2026-01-14)
 
 
