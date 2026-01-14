@@ -2,6 +2,8 @@
 
 public class Lift
 {
+    private bool _lightsOn = false;
+
     public bool DoorsClosed 
     { 
         get
@@ -9,5 +11,19 @@ public class Lift
             return true;
         }
         
+    }
+
+    public bool LightsOn 
+    { 
+        get
+        {   return _lightsOn;
+        }
+        private set;
+
+    }
+
+    public void PressButton()
+    {
+        this._lightsOn = true;
     }
 }
