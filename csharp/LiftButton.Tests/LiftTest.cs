@@ -11,14 +11,6 @@ public class LiftTests
     //[] - lights should be OFF when button is pressed and doors are OPEN
 
     [Test]
-    public void DoorsShouldBeClosedWhenLiftIsCreated()
-    {
-        var lift = new Lift();
-        
-        Assert.That(lift.DoorsClosed, Is.True);
-    }
-
-    [Test]
     public void shouldswitchlightsONwhenbuttonispressedanddoorsareCLOSED()
     {
         var lift = new Lift();
@@ -29,4 +21,13 @@ public class LiftTests
         Assert.That(lift.LightsOn, Is.True);
         
     }
+
+    [Test]
+    public void SAFETY_ISSUE_liftdoorsshouldnotbeclosedwhentheliftisinitialized()
+    {
+        var lift = new Lift();
+
+        Assert.That(lift.DoorsClosed, Is.False);
+    }
 }
+

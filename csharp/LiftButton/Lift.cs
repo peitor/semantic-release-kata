@@ -8,7 +8,7 @@ public class Lift
     { 
         get
         {
-            return true;
+            return false;
         }
         
     }
