@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>IbanFR.SemanticRelease.LiftButton</PackageId>
-        <Version>0.1.0</Version>
+        <Version>1.9.0</Version>
         <Authors>Iván Fernández</Authors>
         <Company>IbanFR</Company>
         <Description>Csharp implementation of the LiftButton software</Description>
